@@ -1,0 +1,66 @@
+---
+title: "Connect Google Workspace to Orpheus"
+sidebarTitle: "Google Workspace"
+description: "Link your Google Workspace account to Orpheus to enable calendar scheduling, interview coordination, and real-time availability syncing."
+---
+
+Connecting Google Workspace to Orpheus lets you schedule interviews, coordinate meetings, and manage calendar availability without leaving the platform. Once connected, Orpheus reads your calendar data only to power the scheduling features you choose to use — your data is never used for any other purpose.
+
+## What the integration does
+
+The Google Workspace integration brings your calendar directly into your Orpheus workflow. You can schedule interviews from a candidate's application page, share availability with hiring teams, and send meeting invites — all coordinated through Google Calendar. Orpheus uses the connection to create and manage calendar events on your behalf, so every interview gets onto the right calendars automatically.
+
+## Connecting Google Workspace
+
+<Steps>
+  <Step title="Open Settings">
+    Go to **Settings > Integrations** in your Orpheus account.
+  </Step>
+  <Step title="Select Google Workspace">
+    Find the **Google Workspace** integration card and click it to open the connection panel.
+  </Step>
+  <Step title="Click Connect">
+    Click **Connect** and sign in with the Google account you use for calendar and scheduling. You'll be redirected to Google's authentication flow.
+  </Step>
+  <Step title="Grant calendar permissions">
+    Review and grant the requested permissions for calendar access. Orpheus requires these permissions to read your availability and create meeting events.
+  </Step>
+  <Step title="Return to Orpheus">
+    After approving permissions, you're redirected back to Orpheus. The integration status updates to **Connected** — you're ready to start scheduling.
+  </Step>
+</Steps>
+
+## What data is accessed
+
+When you connect Google Workspace, Orpheus accesses the following calendar data on your behalf:
+
+- **Calendar events** — existing events in your calendar so Orpheus can identify busy times
+- **Availability** — your free/busy status used when selecting interview slots
+- **Meeting creation** — the ability to create new calendar events and send invites to participants
+
+Orpheus does not access your email, contacts, files, or any data outside of calendar scheduling.
+
+## Data usage and privacy
+
+Orpheus uses Google Workspace API data solely to provide the scheduling and calendar features you choose to use. Your Google data is never used for advertising, profiling, or any purpose beyond what you directly authorize.
+
+Orpheus adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including its Limited Use requirements. This means your Google data is accessed, stored, and processed only as necessary to operate the features you enable.
+
+<Note>
+  Orpheus does not use your Google Workspace data for advertising or any purpose beyond the calendar and scheduling features you authorize. Your data is not shared with third parties for marketing or analytics.
+</Note>
+
+## Disconnecting Google Workspace
+
+You can revoke Orpheus's access to your Google Workspace account at any time:
+
+1. Go to **Settings > Integrations** in Orpheus.
+2. Click **Google Workspace** to open the connection panel.
+3. Click **Disconnect** to remove the integration.
+4. To fully revoke permissions, visit [myaccount.google.com/permissions](https://myaccount.google.com/permissions) and remove Orpheus from the list of connected apps.
+
+After disconnecting, Orpheus can no longer access your calendar. Any previously scheduled events remain on your Google Calendar unchanged.
+
+<Tip>
+  Once connected, head to [Calendar Scheduling](/integrations/calendar-scheduling) to learn how to schedule interviews and manage availability directly from Orpheus.
+</Tip>

@@ -1,22 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Orpheus",
+  "projectType": "saas",
+  "projectName": "Orpheus",
+  "projectDescription": "Orpheus is a recruitment and talent management platform by Thaloz that brings candidate flow, recruiting operations, and team coordination into one focused system for high-volume staffing agencies.",
   "theme": "luma",
-  "colors": {
-    "primary": "#1444e4"
-  },
-  "logo": {
-    "light": "https://media.brand.dev/e96a838c-bdb2-49ae-bb50-a74529679ee9.svg",
-    "dark": "https://media.brand.dev/e96a838c-bdb2-49ae-bb50-a74529679ee9.svg"
-  },
-  "favicon": "https://media.brand.dev/e7f8a1d0-cad2-4882-b368-1312a73c80ec.png",
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "https://orpheus.thaloz.com"
-    }
-  },
+  "primaryColor": "#1444e4",
+  "lightColor": null,
+  "darkColor": null,
   "navigation": {
     "tabs": [
       {
@@ -78,5 +67,27 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "Job posting and discovery for staffing agencies",
+    "Candidate profile management with resume and skills tracking",
+    "Application tracking and pipeline management",
+    "Team coordination and recruiter workflows",
+    "Analytics and reporting for authorized users",
+    "Google Workspace integration for calendar scheduling and meeting coordination",
+    "Remote-first, global talent network spanning 30 countries",
+    "Multi-role platform supporting candidates, employers, and recruiters",
+    "Messaging between candidates and employers",
+    "Nearshore Latin American tech talent specialization"
+  ],
+  "publicApiSurface": [
+    "Candidate registration and profile creation",
+    "Job posting creation and management",
+    "Application submission and status tracking",
+    "Messaging between platform users",
+    "Google Workspace / Calendar API integration",
+    "Analytics and reporting dashboard",
+    "Account management (settings, billing, subscription)",
+    "Opportunity search with filters (experience level, work type, location, urgency)"
+  ]
 }
